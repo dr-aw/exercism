@@ -19,7 +19,6 @@ func (d DNA) Counts() (h Histogram, err error) {
 		default:
 			return nil, fmt.Errorf("invalid nucleotide %v", nuc)
 		}
-
 	}
 	return h, nil
 }
